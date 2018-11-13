@@ -31,6 +31,6 @@ add_action( 'oxygen_enqueue_ui_scripts', 'ctrl_s_save_oxygen' );
 
 function ctrl_s_save_oxygen() {
 	if ( defined( 'SHOW_CT_BUILDER' ) ) {
-		wp_enqueue_script( 'ctrl-s-save-oxygen', plugin_dir_url( __FILE__ ) . 'ctrl-s-save-oxygen.js', array( 'jquery' ), '1.0.0', true );
+		wp_enqueue_script( 'ctrl-s-save-oxygen', plugin_dir_url( __FILE__ ) . 'main.js', array( 'jquery' ), '1.0.0', true );
 	}
 }
