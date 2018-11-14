@@ -1,3 +1,5 @@
+# Did you just get here? [I've updated this plugin with an even better one with more keyboard shortcuts!](https://github.com/mzdynamic/oxygen-keyboard-shortcuts) #
+
 # Save Oxygen with CTRL + S #
 
 Adds functionality to save work in [Oxygen](http://oxygenbuilder.com/)'s editor by pressing Ctrl + S.
